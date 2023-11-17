@@ -1,0 +1,135 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 75px;
+    width: 100%;
+    background-color: #000000;
+    color: #cbcbcb;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper >.left-column {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.navigation-wrapper > .left-column > .banner-imagen {
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding-left: 130px;
+}
+
+.navigation-wrapper > .right-column > .create-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    background-color: #41434C;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 30px;
+}
+
+.navigation-wrapper > .right-column > .create-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .create-wrapper  i{
+    color: #57D06E;
+    border-radius: 2px;
+    font-size: 30px;
+}
+
+.navigation-wrapper > .right-column > .search-icon {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .search-icon a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .search-icon  i{
+    color: #41434C;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 30px;
+}
+
+.navigation-wrapper > .right-column > .login-sining-links {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    background-color: #41434C;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 30px;
+}
+
+.navigation-wrapper > .right-column > .login-sining-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .top-heading {
+    color: #FFDD40;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link{
+    width: 70px;
+    text-align: left;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #CBCBCB;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .spark-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: grey;
+    text-decoration: none;
+    transition: 0.5s;
+}

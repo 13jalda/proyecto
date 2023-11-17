@@ -1,0 +1,33 @@
+.footer {
+    background-color: #131417;
+    color: #FFFFFF;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 180px;
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  .footer > .codePen-wrapper {
+    background-color: #2C303A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444857;  
+    height: 70px;
+    width: 100%;
+}
+
+.footer > .codePen-wrapper > .codepen-for{
+    font-size: 15px;
+}
+
+.footer > .codePen-wrapper > .texto-upper{
+    font-size: 25px;
+    text-transform: uppercase;
+}
